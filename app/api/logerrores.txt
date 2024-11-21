@@ -1,0 +1,602 @@
+31/5/2023, 18:03:11
+Error
+    at Database.<anonymous> (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async equipos.findAll (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1140:21)
+    at async equipos.findOne (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\routes\facturas.js:29:16
+
+31/5/2023, 18:15:04
+Error
+    at Database.<anonymous> (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async facturas.findAll (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1140:21)
+    at async facturas.findOne (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\routes\facturas.js:29:16
+
+31/5/2023, 18:15:12
+Error
+    at Database.<anonymous> (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SQLiteQueryInterface.select (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async facturas.findAll (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1140:21)
+    at async facturas.findOne (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\model.js:1240:12)
+    at async C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\routes\facturas.js:29:16
+
+31/5/2023, 19:20:28
+Error
+    at Database.<anonymous> (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\routes\facturas.js:111:20
+
+31/5/2023, 19:23:41
+Error
+    at Database.<anonymous> (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\routes\facturas.js:111:20
+
+31/5/2023, 19:55:45
+SyntaxError: Unexpected token e in JSON at position 43
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Agustin\Desktop\BackendTPRojas\tpg15\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+19/6/2023, 13:16:44
+Error: WHERE parameter "Activo" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1840:30
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator._whereGroupBind (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1839:21)
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1790:19)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+
+19/6/2023, 13:19:39
+Error: WHERE parameter "Activo" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1840:30
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator._whereGroupBind (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1839:21)
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1790:19)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+
+19/6/2023, 13:37:47
+Error: WHERE parameter "Activo" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1840:30
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator._whereGroupBind (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1839:21)
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1790:19)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+
+19/6/2023, 13:40:28
+Error: WHERE parameter "Activo" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1840:30
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator._whereGroupBind (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1839:21)
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1790:19)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+
+19/6/2023, 13:44:32
+Error: WHERE parameter "Activo" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1840:30
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator._whereGroupBind (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1839:21)
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1790:19)
+    at C:\Users\santi\Documents\UTN Santi\DDS\TP Frontend Final\tpg15-frontend\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+
+25/6/2023, 21:01:37
+TypeError: Cannot read properties of undefined (reading 'findOne')
+    at findOne (C:\Users\joaqu\Desktop\tpg15-frontend\api\services\facturas-services.js:75:33)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:47:12)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:513:28)
+    at SendStream.error (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\send\index.js:417:12)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\send\index.js:731:16)
+    at onstat (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\send\index.js:720:14)
+    at FSReqCallback.oncomplete (node:fs:208:21)
+
+25/6/2023, 21:02:35
+TypeError: Cannot read properties of undefined (reading 'findOne')
+    at getById (C:\Users\joaqu\Desktop\tpg15-frontend\api\services\facturas-services.js:75:33)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:376:14)
+
+25/6/2023, 21:02:39
+TypeError: Cannot read properties of undefined (reading 'findOne')
+    at getById (C:\Users\joaqu\Desktop\tpg15-frontend\api\services\facturas-services.js:75:33)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\joaqu\Desktop\tpg15-frontend\api\node_modules\express\lib\router\index.js:376:14)
+
+16/11/2024, 20:54:52
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:55:05
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:56:58
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:59:16
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:59:57
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:59:58
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:59:58
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 20:59:59
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 21:00:00
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 21:00:00
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 21:00:01
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 21:00:02
+ReferenceError: username is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:7:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 23:06:24
+Error: data and hash arguments required
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:204:25)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:21:42
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+
+16/11/2024, 23:15:20
+SyntaxError: Expected double-quoted property name in JSON at position 109
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+16/11/2024, 23:16:20
+SyntaxError: Expected double-quoted property name in JSON at position 109
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+16/11/2024, 23:16:28
+SyntaxError: Expected double-quoted property name in JSON at position 109
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+16/11/2024, 23:19:42
+ReferenceError: Sequelize is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:19:18
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+16/11/2024, 23:21:50
+Error: data and hash arguments required
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:204:25)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:25:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+16/11/2024, 23:21:51
+Error: data and hash arguments required
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\bcrypt\bcrypt.js:204:25)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:25:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+16/11/2024, 23:36:04
+Error
+    at Database.<anonymous> (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.insert (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:2490:35)
+    at async users.create (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1362:12)
+    at async C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:20:18
+
+18/11/2024, 19:27:28
+Error
+    at Database.<anonymous> (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async sessions.findAll (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1140:21)
+    at async sessions.findOne (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1240:12)
+    at async validateIdentity (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\middleware\validateIdentity.js:20:20)
+
+18/11/2024, 19:28:27
+Error
+    at Database.<anonymous> (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1240:12)
+    at async validateIdentity (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\middleware\validateIdentity.js:30:18)
+
+18/11/2024, 19:44:51
+ReferenceError: err is not defined
+    at validateIdentity (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\middleware\validateIdentity.js:11:21)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:175:3)
+
+19/11/2024, 23:13:55
+ReferenceError: user is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:34:33
+
+19/11/2024, 23:57:09
+SyntaxError: Expected double-quoted property name in JSON at position 36
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+20/11/2024, 01:11:17
+TypeError: Cannot read properties of undefined (reading 'id')
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\login.js:21:29
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+20/11/2024, 01:13:19
+Error
+    at Database.<anonymous> (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async sessions.findAll (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1140:21)
+    at async sessions.findOne (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1240:12)
+    at async validateIdentity (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\middleware\validateIdentity.js:21:20)
+
+20/11/2024, 01:15:29
+Error
+    at Database.<anonymous> (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.select (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async sessions.findAll (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1140:21)
+    at async sessions.findOne (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:1240:12)
+    at async validateIdentity (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\middleware\validateIdentity.js:21:20)
+
+20/11/2024, 01:20:08
+ReferenceError: sessions is not defined
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\closeSession.js:9:5
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\route.js:114:3)
+    at newFn (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\express\lib\router\index.js:280:10)
+
+20/11/2024, 01:21:03
+Error: WHERE parameter "id" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at SQLiteQueryGenerator.whereQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1714:24)
+    at SQLiteQueryGenerator.updateQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query-generator.js:185:84)
+    at SQLiteQueryInterface.bulkUpdate (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:361:37)
+    at sessions.update (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:2010:54)
+    at async C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\closeSession.js:9:5
+
+20/11/2024, 01:21:37
+Error: WHERE parameter "idSesion" has invalid "undefined" value
+    at SQLiteQueryGenerator.whereItemQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1743:13)
+    at C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1734:25
+    at Array.forEach (<anonymous>)
+    at SQLiteQueryGenerator.whereItemsQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1732:35)
+    at SQLiteQueryGenerator.whereQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1714:24)
+    at SQLiteQueryGenerator.updateQuery (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\sqlite\query-generator.js:185:84)
+    at SQLiteQueryInterface.bulkUpdate (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:361:37)
+    at sessions.update (C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\node_modules\sequelize\lib\model.js:2010:54)
+    at async C:\Users\Usuario\Documents\TP_Seguridad\TPI_SEG\app\tpg15-frontend-main\api\routes\closeSession.js:9:5
+
